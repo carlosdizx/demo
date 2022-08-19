@@ -1,7 +1,6 @@
 <%@ page import="java.time.LocalDate" %>
 <%@ page import="java.util.Date" %>
 <%@ page import="java.time.LocalTime" %>
-<%@ page import="java.time.LocalDateTime" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
@@ -12,12 +11,12 @@
 <h1><%= "Hello World!" %>
 </h1>
 <br/>
-<hr>
+<a href="hello-servlet">Hello Servlet</a>
 <br/>
-Hola amigos, soy una pagina dinamica, la fecha es: <%= LocalDate.now()%>
+<a href="Expresiones.jsp">Expresiones</a>
 <br/>
-la hora es: <%= LocalTime.now()%>
+<a href="Scriptlet.jsp">Scriptlet</a>
 <br/>
-la fecha y hora es: <%= LocalDateTime.now()%>
+<a href="Declaraciones.jsp">Declaraciones</a>
 </body>
 </html>
