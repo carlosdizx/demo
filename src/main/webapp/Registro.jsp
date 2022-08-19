@@ -9,6 +9,8 @@
     Usuario confirmado
     <hr/>
     Nombre: <%=request.getParameter("nombre")%>&nbsp;Apellido: <%=request.getParameter("apellido")%>
+
+    <jsp:include page="Fecha.jsp"/>
 </div>
 </body>
 </html>
