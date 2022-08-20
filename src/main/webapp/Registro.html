@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro usuario sencillo</title>
+</head>
+<body>
+<h1>Registro</h1>
+<hr/>
+<form action="RecogerDatos.jsp" method="post">
+    <table>
+        <tr>
+            <td>
+                <label>
+                    Nombre
+                    <input type="text" name="nombre"/>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    Apellido
+                    <input type="text" name="apellido"/>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    Usuario
+                    <input type="text" name="usuario"/>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    Contraseña
+                    <input type="text" name="contra"/>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="pais">País</label>
+                <select name="pais" id="pais">
+                    <option>Colombia</option>
+                    <option>Ecuador</option>
+                    <option>Venezuela</option>
+                    <option>Perú</option>
+                    <option>Bolivia</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    <input type="radio" name="tecnologia" value="Java">Java
+                </label>
+                <label>
+                    <input type="radio" name="tecnologia" value="PHP">PHP
+                </label>
+                <label>
+                    <input type="radio" name="tecnologia" value="JavaScript">JavaScipt
+                </label>
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value="Registrar">
+</form>
+</body>
+</html>
