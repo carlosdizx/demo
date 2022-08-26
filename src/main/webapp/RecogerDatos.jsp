@@ -14,6 +14,7 @@
     String contra = request.getParameter("contra");
     String pais = request.getParameter("pais");
     String tecnologia = request.getParameter("tecnologia");
+    Class.forName("com.mysql.jdbc.Driver");
 
     Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/proyecto_jsp", "root", "1234");
 
