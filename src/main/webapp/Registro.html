@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+</head>
+<body>
+<form action="RecogerDatos.jsp" method="post">
+    <table>
+        <tr>
+            <td>
+                <label>
+                    Nombre: <input type="text" name="nombre">
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    Apellido: <input type="text" name="apellido">
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    Usuario: <input type="text" name="usuario">
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    Contraseña: <input type="text" name="contra">
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>
+                    Pais:
+                    <select name="pais">
+                        <option>Colombia</option>
+                        <option>Ecuador</option>
+                        <option>Venezuela</option>
+                        <option>Preú</option>
+                        <option>Bolivia</option>
+                    </select>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Técnologia <br />
+                <label>
+                    Java: <input type="radio" value="Java" name="tecnologia"/>
+                </label>
+                <br />
+                <label>
+                    JavaScript: <input type="radio" value="JavaScript" name="tecnologia"/>
+                </label>
+                <br />
+                <label>
+                    PHP: <input type="radio" value="PHP" name="tecnologia"/>
+                </label>
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value="Registrar">
+</form>
+</body>
+</html>
